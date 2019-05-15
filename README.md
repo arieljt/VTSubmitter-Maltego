@@ -1,12 +1,12 @@
 # VirusTotal Submitter Information Maltego Transform
 
 ## Introduction
-This Maltego Transform accepts a hash and extracts basic, useful information about a VirusTotal submitter of a specific Hash.
-Born out of need. I haven't come across such transfrom, nor the ability to create one before VirusTotal private API v3. 
+This Maltego Transform accepts a hash and extracts basic, useful information about its VirusTotal submitters.
+Born out of need. I haven't came across such transfrom, nor the ability to create one before VirusTotal private API v3. 
 The .mtz also contains one Entity which translates the submitter's country code to its flag using Maltego 4.2 entity overlays.
 
 ## Prerequisites
-- VirusTotal Private API Access
+- VirusTotal Private API key
 - Python 2.7.X, requests, json 
 - Maltego 4.2.X
 
