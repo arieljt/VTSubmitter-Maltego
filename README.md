@@ -19,7 +19,7 @@ With the prerequisites met, clone repository to a local folder.
 1. Edit VTSubmitter.py and insert your VirusTotal private API key.
 2. Import VTSubmitter.mtz to Maltego, making sure to import both the transform and the entity.
 3. Go to Transforms -> Transform Manager -> VTSubmitter and set:
-  - Command line: C:\Python27\python.exe (or your python.exe folder)
+  - Command line: C:\Python27\python.exe (or your python folder)
   - Working directory: The folder where you cloned this repository to.
   - Uncheck "Show debug info"
 
