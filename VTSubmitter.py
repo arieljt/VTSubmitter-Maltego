@@ -10,7 +10,7 @@ apikey = "API_KEY"
 
 mt = MaltegoTransform()
 mt.parseArguments(sys.argv)
-file_hash = mt.getVar('properties.hash')
+file_hash = mt.getVar('properties.hash').strip()
 
 
 try:
